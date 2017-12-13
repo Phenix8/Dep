@@ -1,0 +1,29 @@
+<group>
+    <Brightness_threshold>0.0733333</Brightness_threshold>
+    <Contrast>0.19</Contrast>
+    <Brightness>0.0766667</Brightness>
+</group>
+<SCREEN>
+    <TOPLEFT>
+        <X>30.000000000</X>
+        <Y>46.000000000</Y>
+    </TOPLEFT>
+    <TOPRIGHT>
+        <X>286.000000000</X>
+        <Y>41.000000000</Y>
+    </TOPRIGHT>
+    <BOTTOMRIGHT>
+        <X>286.000000000</X>
+        <Y>202.000000000</Y>
+    </BOTTOMRIGHT>
+    <BOTTOMLEFT>
+        <X>32.000000000</X>
+        <Y>204.000000000</Y>
+    </BOTTOMLEFT>
+</SCREEN>
+<CONTRAST>0.823333025</CONTRAST>
+<BRIGHTNESS>0.569999993</BRIGHTNESS>
+<GAIN>2</GAIN>
+<EXPOSURE>187</EXPOSURE>
+<IP>localhost</IP>
+<WEBCAM_INDEX>0</WEBCAM_INDEX>
