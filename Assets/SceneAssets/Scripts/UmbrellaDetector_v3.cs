@@ -29,12 +29,17 @@ public class UmbrellaDetector_v3 : MonoBehaviour {
 
     public RectTransform globalCanvasTr;
 
+    public GameObject debugMask;
+
 
     void Start()
     {
         isDebug = interfaceIsDebug;
         cursorOffset = new Vector3(globalCanvasTr.rect.width / 2.0f, globalCanvasTr.rect.height/2.0f);
         previousPositions = new List<Vector2>();
+
+        if (debugMask != null)
+            debugMask.SetActive(isDebug);
 
         /* DEBUG
         texture = new WebCamTexture(WebCamTexture.devices[1].name);
